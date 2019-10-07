@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #7c7373;
+  color: #fff;
+  text-shadow: 2px 2px #1f1f1f;
+}
+
+h1, h2, h3, div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+#play {
+  margin-top: 10px;
+  padding: 4px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Javascript Form</title>
+</head>
+
+<body>
+
+  <form id="form" method="GET" action="submit.html" onsubmit="return submit()"><!-- FORM START -->
+    <!-- FIRSTNAME -->
+    <label for="firstName">First name:*</label><br>
+    <input type="text" name="firstName" id="firstName" maxlength="20" placeholder="John" autofocus required><br>
+    <div id="firstNameError"></div>
+
+    <!-- LASTNAME -->
+    <label for="lastName">Last name:*</label><br>
+    <input type="text" name="lastName" id="lastName" maxlength="25" placeholder="Smith" required><br>
+    <div id="lastNameError"></div>
+
+    <!-- AGE -->
+    <label for="age">Age:</label><br>
+    <input type="number" name="age" id="age" min="1" max="99" placeholder="1-99"><br>
+
+    <!-- PHONE -->
+    <label for="phone">Telephone:</label><br>
+    <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+(32)497/123456"><br>
+
+    <!-- ADDRESS -->
+    <label for="address">Address:*</label><br>
+    <input type="text" name="address" id="address" maxlength="" placeholder="streetname + number" required><br>
+    <div id="addressError"></div>
+
+
+    <!-- CITY -->
+    <label for="city">City:*</label><br>
+    <input type="text" name="city" id="city" maxlength="" placeholder="city" required><br>
+    <div id="cityError"></div>
+
+    <!-- ZIP -->
+    <label for="zip">ZIP:*</label><br>
+    <input type="number" name="zip" id="zip" maxlength="4" placeholder="1234" required><br>
+    <div id="zipError"></div>
+
+    <!-- HOBBIES -->
+    <label for="hobbies">Hobbies:</label><br>
+    <input type="text" name="hobbies" id="hobbies" maxlength="50" placeholder="hobbies"><br>
+
+    <!-- USERNAME -->
+    <label for="userName">User name:*</label><br>
+    <input type="text" name="userName" id="userName" maxlength="10" placeholder="JohnSmith1234" required><br>
+    <div id="userNameError"></div>
+
+    <!-- EMAIL -->
+    <label for="email">E-mail:*</label><br>
+    <input type="email" name="email" id="email" placeholder="JohnSmith@gmail.com" required><br>
+    <div id="emailError"></div>
+
+    <!-- PASSWORD -->
+    <label for="password">User password:*</label><br>
+    <input type="password" name="password" id="password" maxlength="15" placeholder="password" required><br>
+    <div id="passwordError"></div>
+
+    <!-- PASSWORDCONFIRM -->
+    <label for="passwordConfirm">Confirm password:*</label><br>
+    <input type="password" name="passwordConfirm" id="passwordConfirm" maxlength="15" placeholder="reenter password" required><br>
+    <div id="passwordConfirmError"></div>
+
+    <!-- SUBMIT & RESET buttons -->
+    <input type="submit" value="Submit" id="submit">
+    <input type="reset" value="Reset" id="reset">
+
+  </form><!-- FORM END -->
+
+  <div id="temporary"></div>
+  <script src="main.js"></script>
+</body>
+
+</html>

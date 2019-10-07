@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(52, 52, 52);
+  color: rgb(175, 175, 175);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.quoteBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.quote-text, .quote-author {
+  color: rgb(218, 218, 218);
+}
+
+#button {
+  border: none;
+  background: rgb(167, 105, 105);
+  color: rgb(218, 218, 218);
+  padding: 20px;
+}
+
+/* <div class="quoteBox">' +
+                '<img src="' +x.photo+ '">' +
+                '<p class="quote-text"><img src="images/quoteL.svg" class="quotemark">' + x.quote + '<img src="images/quoteR.svg" class="quotemark qR"></p>' +
+                '<p class="quote-author">' + "~  " + x.author + " ( " + x.total_quotes + " quotes ) </p>" +
+                '</div>'
