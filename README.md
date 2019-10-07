@@ -1,4 +1,3 @@
 # learning javascript
 
-
- https://jalyurt.github.io/javascript/js-ajax/index.html
+* [AJAX exercise](https://jalyurt.github.io/javascript/js-ajax/index.html) ###### folder: js-ajax
