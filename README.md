@@ -6,5 +6,3 @@
 * [js-form](https://jalyurt.github.io/javascript/js-form/index.html)
 * [js-functions](https://jalyurt.github.io/javascript/js-functions/index.html)
 * [js-loops](https://jalyurt.github.io/javascript/js-loops/index.html)
-* [js-objects](https://jalyurt.github.io/javascript/js-objects/index.html)
-* [variables-datatypes-operators](https://jalyurt.github.io/javascript/variables-datatypes-operators/index.html)
