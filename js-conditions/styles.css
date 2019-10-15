@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, div {
+    background: rgb(34, 34, 34);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(16, 252, 212);
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 3px 3px rgb(235, 28, 28);
+    text-transform: uppercase;
+}
+
+h3 {
+    color: rgb(75, 179, 161);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#playerstitle {
+    margin-top: 50px;
+}
+
+select, option {
+    background: rgb(102, 224, 204);
+    padding: 20px 10px;
+    border: 1px solid rgb(247, 74, 74);
+}
+
+span {
+    color: rgb(247, 74, 74);
+}
+
+button {
+    background: rgb(16, 252, 212);
+    border: 2px solid rgb(235, 28, 28);
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+#result {
+    color: rgb(16, 252, 212);
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px rgb(235, 28, 28);
+    text-transform: uppercase;
+    margin-top: 20px;
+}

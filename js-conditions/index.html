@@ -3,34 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Rock, paper, scissors, ...</title>
 </head>
 <body>
-    <h1>Rock, Paper, Scissors....</h1>
-    <h2>Lizard, Spock!</h2>
-
+    <h1>Rock | Paper | Scissors</h1>
+    
     <div>
-        <h3>Amount of players</h3>
+        <h3 id="playerstitle">Amount of players</h3>
         <select name="players" id="players">
             <option value="1">1 Player</option>
             <option value="2">2 Players</option>
         </select>
     </div>
-
+    
     <div>
-        <h3>Player 1</h3>
+        <h3>Player <span>1</span></h3>
         <select name="p1choice" id="p1choice"></select>
     </div>
 
     <div>
-        <h3>Player 2</h3>
+        <h3>Player <span>2</span></h3>
         <select name="p2choice" id="p2choice" disabled></select>
     </div>
 
-    <div><button id="play">Play</button></div>
+    <button id="play">Play</button>
 
     <div id="result"></div>
-    
+
+    <div id="imgs">
+        <img scr="images/rock.png">
+        <img scr="images/paper.png">
+        <img scr="images/scissors.png">
+    </div>
+
+
+    <script src="script.js"></script>
+
 </body>
 </html>
