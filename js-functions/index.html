@@ -6,7 +6,7 @@
     <title>Calculator</title>
 
     <style>
-
+        
         * {
             margin: 0px;
             padding: 0px;
@@ -52,7 +52,7 @@
             flex-wrap: wrap;
             justify-content: space-around;
         }
-        #operations {
+        #operators {
             width: 40%;
             height: 100%;
             display: flex;
@@ -70,55 +70,38 @@
 
     <div id="calculator">
 
-        <div id="calc-preview">Make a calculation...</div>
+        <div id="calc-preview"></div>
 
         <div id="calc-buttons">
 
             <ul id="calc-numbers">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>0</button>
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button value="0">0</button>
             </ul>
 
-            <div id="operations">
-                <button>+</button>
-                <button>-</button>
-                <button>*</button>
-                <button>/</button>
-                <button>%</button>
-                <button>=</button>
-                <button>C</button>
+            <div id="operators">
+                <button value="+">+</button>
+                <button value="-">-</button>
+                <button value="*">*</button>
+                <button value="/">/</button>
+                <button value="%">%</button>
+                <button value="=">=</button>
+                <button value="C">C</button>
             </div>
 
         </div>
 
     </div>
 
-
-    <script>
-        /*
-        Write your script here!
-        Note: it is advised to work on this in small steps!
-            1. When you click a button, make your code log something to the console.
-                This way you can see if your event listener is linked properly!
-            2. When you click a button, make the number/operation appear in the calc-preview div.
-            3. ......
-        */
-        let numbers = document.getElementById("calc-numbers")
-        let operators = document.getElementById("operations")
-
-        function math() {
-          
-        }
-
-    </script>
-
+    <script src="myscripts.js"></script>
+    
 </body>
 </html>
